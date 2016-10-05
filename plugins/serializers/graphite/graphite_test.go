@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fyannk/telegraf"
 )
 
 var defaultTags = map[string]string{

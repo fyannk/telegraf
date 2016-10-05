@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/testutil"
+	jsonparser "github.com/fyannk/telegraf/plugins/parsers/json"
+	"github.com/fyannk/telegraf/testutil"
 )
 
 var masterMetrics map[string]interface{}

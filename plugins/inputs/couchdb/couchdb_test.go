@@ -1,8 +1,8 @@
 package couchdb_test
 
 import (
-	"github.com/influxdata/telegraf/plugins/inputs/couchdb"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fyannk/telegraf/plugins/inputs/couchdb"
+	"github.com/fyannk/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"

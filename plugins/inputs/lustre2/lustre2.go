@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/internal"
+	"github.com/fyannk/telegraf/plugins/inputs"
 )
 
 // Lustre proc files can change between versions, so we want to future-proof

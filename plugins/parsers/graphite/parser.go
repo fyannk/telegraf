@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fyannk/telegraf"
 )
 
 // Minimum and maximum supported dates for timestamps.

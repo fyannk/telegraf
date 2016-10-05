@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/fyannk/telegraf"
 )
 
 type RunningInput struct {

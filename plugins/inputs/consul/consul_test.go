@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fyannk/telegraf/testutil"
 )
 
 var sampleChecks = []*api.HealthCheck{

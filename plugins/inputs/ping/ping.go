@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/internal"
+	"github.com/fyannk/telegraf/plugins/inputs"
 )
 
 // HostPinger is a function that runs the "ping" function using a list of

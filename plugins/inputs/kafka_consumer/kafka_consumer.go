@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/plugins/inputs"
+	"github.com/fyannk/telegraf/plugins/parsers"
 
 	"github.com/Shopify/sarama"
 	"github.com/wvanbergen/kafka/consumergroup"

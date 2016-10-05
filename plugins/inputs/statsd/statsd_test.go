@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fyannk/telegraf/testutil"
 )
 
 func NewTestStatsd() *Statsd {

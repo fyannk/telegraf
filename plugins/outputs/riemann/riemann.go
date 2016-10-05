@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/amir/raidman"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/plugins/outputs"
 )
 
 type Riemann struct {

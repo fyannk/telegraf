@@ -3,8 +3,8 @@ package mqtt
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/fyannk/telegraf/plugins/serializers"
+	"github.com/fyannk/telegraf/testutil"
 
 	"github.com/stretchr/testify/require"
 )

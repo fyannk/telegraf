@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 
-	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/internal/config/aws"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/fyannk/telegraf"
+	internalaws "github.com/fyannk/telegraf/internal/config/aws"
+	"github.com/fyannk/telegraf/plugins/outputs"
 )
 
 type CloudWatch struct {

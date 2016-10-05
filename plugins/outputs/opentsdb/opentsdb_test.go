@@ -3,7 +3,7 @@ package opentsdb
 import (
 	"reflect"
 	"testing"
-	// "github.com/influxdata/telegraf/testutil"
+	// "github.com/fyannk/telegraf/testutil"
 	// "github.com/stretchr/testify/require"
 )
 

@@ -5,9 +5,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/plugins/outputs"
+	"github.com/fyannk/telegraf/plugins/serializers"
 )
 
 type File struct {

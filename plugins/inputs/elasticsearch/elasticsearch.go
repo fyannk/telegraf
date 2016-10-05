@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/errchan"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/internal"
+	"github.com/fyannk/telegraf/internal/errchan"
+	"github.com/fyannk/telegraf/plugins/inputs"
+	jsonparser "github.com/fyannk/telegraf/plugins/parsers/json"
 )
 
 const statsPath = "/_nodes/stats"

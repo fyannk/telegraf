@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/errchan"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/internal/errchan"
+	"github.com/fyannk/telegraf/plugins/inputs"
 
 	as "github.com/sparrc/aerospike-client-go"
 )

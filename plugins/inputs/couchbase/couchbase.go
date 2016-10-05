@@ -2,8 +2,8 @@ package couchbase
 
 import (
 	couchbase "github.com/couchbase/go-couchbase"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/plugins/inputs"
 	"sync"
 )
 
@@ -79,6 +79,9 @@ func (r *Couchbase) gatherServer(addr string, acc telegraf.Accumulator, pool *co
 		fields := make(map[string]interface{})
 		fields["memory_free"] = node.MemoryFree
 		fields["memory_total"] = node.MemoryTotal
+                for interestingStat, _ := range node.InterestingStats {
+                  fields["interesting_"+interestingStat] = node.InterestingStats[interestingStat]
+                }
 		acc.AddFields("couchbase_node", fields, tags)
 	}
 	for bucketName, _ := range pool.BucketMap {

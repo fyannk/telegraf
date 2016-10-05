@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/buffer"
+	"github.com/fyannk/telegraf"
+	"github.com/fyannk/telegraf/internal/buffer"
 )
 
 const (
